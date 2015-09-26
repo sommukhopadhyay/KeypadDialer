@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<EditText
+    android:id="@+id/EditText01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="right"
+    android:layout_weight="1"
+    android:textSize="35sp"
+    android:text=""
+    android:hint="Phone Number" >
+</EditText>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:layout_weight="1">
+<Button android:text="1" android:id="@+id/Button01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"></Button>
+<Button android:text="2" android:id="@+id/Button02" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"></Button>
+<Button android:text="3" android:id="@+id/Button03" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"></Button>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:layout_weight="1">
+<Button android:text="4" android:id="@+id/Button04" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"></Button>
+<Button android:text="5" android:id="@+id/Button05" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"></Button>
+<Button android:text="6" android:id="@+id/Button06" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"></Button>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:layout_weight="1">
+<Button android:text="7" android:id="@+id/Button07" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"></Button>
+<Button android:text="8" android:id="@+id/Button08" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"></Button>
+<Button android:text="9" android:id="@+id/Button09" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"></Button>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/LinearLayout04" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:layout_weight="1">
+<Button android:text="*" android:id="@+id/ButtonSTAR" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"></Button>
+<Button android:text="0" android:id="@+id/Button0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"></Button>
+<Button android:text="#" android:id="@+id/ButtonHash" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"></Button>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/LinearLayout05" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="horizontal" android:layout_weight="1">
+<Button android:text="CALL" android:id="@+id/ButtonCall" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="2"></Button>
+<Button android:text="CREAR" android:id="@+id/ButtonClear" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1"></Button>
+</LinearLayout>
+
+</LinearLayout>
+ 
+<!-- From: file:/home/som/Workspace/Android/Training/KeypadDialer/app/src/main/res/layout/main.xml -->
